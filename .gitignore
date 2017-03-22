@@ -6,7 +6,10 @@ input/
 output/
 traffic-signs-data/
 
+graph.pbtxt
+
 checkpoint
+checkpoints/
 
 .floyd*
 floyd*
