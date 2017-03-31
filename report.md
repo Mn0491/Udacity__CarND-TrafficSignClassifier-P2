@@ -112,6 +112,19 @@ My final model consisted of the following layers:
 | Softmax				        | inputs 43,   outputs 43        						 	  |
 
 
+The first architecture I have chosen was LeNet. I got pretty good results, up to an
+accuracy of 93.6% on the test dataset (trained on the augmented dataset).
+But I wanted to see if I could have better results. So I tried with a simplified
+version of AlexNet, a proven architecture. I got better results.
+
+But I wanted to check if I could have better results with a "superloaded" version
+of LeNet. So I created the LeNet "superloaded"'s version. I got a slightly better
+result (test accuracy) than the LeNet, but a little bit less than the AlexNet
+architecture.
+
+I have tried too the momentum optimizer for the backpropagation. But I had difficulties
+to make it converged. As each experimentation is time consuming, I kept the Adam
+optimizer, easier to setup.
 
 
 #### 4. Training of the model
